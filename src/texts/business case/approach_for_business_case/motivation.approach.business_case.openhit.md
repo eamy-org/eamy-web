@@ -3,11 +3,3 @@ At the first look the business cases for HIT for many facilities and providers a
 Most of current business cases for the HIT are more like advertisement of the particular technology and approach. It is very hard for particular stakeholder like healthcare provider or insurance company to collect these business cases and compare one with another with regards to it’s own business specifics, capabilities and recourses. Besides, it is quite a challenging task to adopt those business cases for needs and specifics of stakeholders, to find out if there are organizations similar to your that succeeded with this case. Many of such case convincing  that there are organizations of same size and with same business model and maturity but there are no parameters to compare if it really fits.
 
 Thus for OpenHIT we decided to define an approach which will help not only to build a business case but also to compare it with others and share it in public.
-
-/// for deletion
-### define personal approach 
-- build business case with respect to the real goals and objectives
-- better fit the real maturity, capabilities and recourses of the organizations while creating a business case
-### compare business cases
-### assess the success or failure
-### define the best practices
