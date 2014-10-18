@@ -19,7 +19,7 @@ build project and run server - `grunt dev`
 
 Before deploy you must build website by `grunt` command
 
-Prepare for deploy
+**Prepare for deploy**
 
 1. `brew update`
 
@@ -32,6 +32,11 @@ Prepare for deploy
 1. `pip install ghp-import`
 
 
-Run deploy
+**Run deploy**
 
 1. `ghp-import -p dest`
+
+
+**Exit from (venv)**
+
+1. `deactivate`
