@@ -37,7 +37,7 @@ module.exports = function(grunt) {
             assets: {
                 files: [
                     {
-                        src: ['*.*'],
+                        src: ['*.*', 'CNAME', '.nojekyll'],
                         expand: true,
                         cwd: '<%= config.src %>/assets',
                         dest: '<%= config.dest %>'
