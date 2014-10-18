@@ -1,0 +1,532 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>OpenHIT. OpenHIT Architecture</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+        <!-- Use one apple-touch-icon instead of six ([#1367](https://github.com/h5bp/html5-boilerplate/issues/1367)). -->
+        <link href='http://fonts.googleapis.com/css?family=PT+Sans:400,700,400italic' rel='stylesheet' type='text/css'>
+
+        <link rel="stylesheet" href="assets/css/normalize.css">
+        <link rel="stylesheet" href="assets/css/main.css">
+        <link rel="stylesheet" href="assets/css/layout.css">
+        <link rel="stylesheet" href="assets/css/design.css">
+        
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+        <header class="mainheader  mainheader_page_inner block__block_wrapper">
+
+            <a href='/' class="mainheader__logo">EAMY medical software</a>
+
+            <div class="mainheader__about  mainheader__about_page_inner ">
+                <h1 class="mainheader__about-title">OpenHIT</h1>
+                <div class="mainheader__about-info">is a concerns-oriented way of thinking<br />
+                about IT application and it's value in the healthcare industry</div>
+            </div>
+
+            <div class="mainheader__userarea  mainheader__userarea_page_inner ">
+                <a href="/contacts.html" class="mainheader__userarea-item">contacts</a>
+                <a href="/blog" class="mainheader__userarea-item">blog</a>
+            </div>
+
+        </header>
+        
+        
+        <h1 class="maincontent-title block__block_wrapper block__block_line_top">OpenHIT Architecture</h1>
+        
+
+        <div class="maincontent block__block_wrapper block__block_line_top">
+            
+
+<div class="mainhelp">
+    <span class="mainhelp__ico"><svg viewBox="0 0 28 28" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <path d="M14.5950222,11.4269112 C14.6270222,10.8349112 14.0340222,10.5309112 13.5070222,10.5309112 C12.9460222,10.5469112 12.4180222,10.8669112 12.4180222,11.6349112 L10.0010222,11.6349112 C9.95302215,9.20291117 11.6020222,8.05091117 13.5860222,8.00191117 C15.9230222,7.93791117 17.3480222,9.48991117 17.3480222,11.3629112 C17.3480222,13.7319112 14.9950222,14.2609112 15.1070222,16.1809112 L12.2740222,16.1809112 C12.0010222,13.6519112 14.4660222,13.2359112 14.5950222,11.4269112 L14.5950222,11.4269112 Z M12.1140222,18.0699112 C12.1140222,17.1739112 12.8180222,16.5969112 13.6820222,16.5969112 C14.5620222,16.5969112 15.2670222,17.1729112 15.2670222,18.0699112 C15.2670222,18.9509112 14.5620222,19.5269112 13.6820222,19.5269112 C12.8180222,19.5269112 12.1140222,18.9509112 12.1140222,18.0699112 L12.1140222,18.0699112 Z" id="Shape-3" sketch:type="MSShapeGroup"></path>
+    <path d="M14,27 C6.831,27 1,21.168 1,14 C1,6.832 6.831,1 14,1 C21.168,1 27,6.832 27,14 C27,21.168 21.168,27 14,27 L14,27 Z M14,3.166 C8.025,3.166 3.167,8.027 3.167,14 C3.167,19.973 8.025,24.834 14,24.834 C19.973,24.834 24.834,19.973 24.834,14 C24.834,8.027 19.972,3.166 14,3.166 L14,3.166 Z" id="Shape-2" sketch:type="MSShapeGroup"></path>
+</svg></span>
+    <div class="mainhelp__window">
+        <div class="mainhelp__window-title">HELP</div>
+        <div class="mainhelp__window-wrap">
+            <p>This diagram is describing logical architecture of the system. Each component has its own short description.</p>
+
+        </div>
+    </div>
+</div>
+
+<nav class="main-subnav">
+    <a href="/architecture-core-concepts.html" class="main-subnav__item">Core concepts</a>
+    <span class="main-subnav__item">Logical architecture</span>
+    <a href="/architecture-reference.html" class="main-subnav__item">Reference architecture</a>
+</nav>
+
+<div class="logical-architecture scheme">
+    <div class="scheme__bg"></div>
+    <div class="scheme__blocked"></div>
+
+    <div class="scheme-block scheme-block_size_1 scheme-block_left_1" id="la1">
+        <div class="scheme-block__header">
+            <b class="scheme-block__header-wrap">Database</b>
+        </div>
+        <div class="scheme-block__body">
+            <h4 id="dwh-databases">DWH databases</h4>
+<p><strong>motivation</strong>
+<strong>principle realization</strong>
+<strong>functions</strong>
+<strong>APIs</strong>
+<strong>security measures</strong>
+<strong>monitoring</strong>
+<strong>deployment</strong>
+<strong>possible SBBs</strong></p>
+
+        </div>
+    </div>
+
+    <div class="scheme-block scheme-block_size_1 scheme-block_left_1" id="la2">
+        <div class="scheme-block__header">
+            <b class="scheme-block__header-wrap">Internal system</b>
+        </div>
+        <div class="scheme-block__body">
+            <h2 id="internal-applications">internal applications</h2>
+<p><strong>motivation</strong>
+<strong>principle realization</strong>
+<strong>functions</strong>
+<strong>APIs</strong>
+<strong>security measures</strong>
+<strong>monitoring</strong>
+<strong>deployment</strong>
+<strong>possible SBBs</strong></p>
+
+        </div>
+    </div>
+
+    <div class="scheme-block scheme-block_size_1 scheme-block_left_1" id="la3">
+        <div class="scheme-block__header">
+            <b class="scheme-block__header-wrap"><b>SOAP</b><br/> proxy service</b>
+        </div>
+        <div class="scheme-block__body">
+            <h1 id="soap-proxy-service">SOAP proxy service</h1>
+
+        </div>
+    </div>
+
+    <div class="scheme-block scheme-block_size_1 scheme-block_left_1 bottom" id="la4">
+        <div class="scheme-block__header">
+            <b class="scheme-block__header-wrap">Internal system</b>
+        </div>
+        <div class="scheme-block__body">
+            <h2 id="internal-applications">internal applications</h2>
+<p><strong>motivation</strong>
+<strong>principle realization</strong>
+<strong>functions</strong>
+<strong>APIs</strong>
+<strong>security measures</strong>
+<strong>monitoring</strong>
+<strong>deployment</strong>
+<strong>possible SBBs</strong></p>
+
+        </div>
+    </div>
+
+    <div class="scheme-block scheme-block_size_1 scheme-block_left_2" id="la5">
+        <div class="scheme-block__header">
+            <b class="scheme-block__header-wrap">REST service</b>
+        </div>
+        <div class="scheme-block__body">
+            <h1 id="rest-service">rest service</h1>
+
+        </div>
+    </div>
+
+    <div class="scheme-block scheme-block_size_1 scheme-block_left_2" id="la6">
+        <div class="scheme-block__header">
+            <b class="scheme-block__header-wrap">REST service</b>
+        </div>
+        <div class="scheme-block__body">
+            <h1 id="rest-service">rest service</h1>
+
+        </div>
+    </div>
+
+    <div class="scheme-block scheme-block_size_1 scheme-block_left_2 bottom" id="la7">
+        <div class="scheme-block__header">
+            <b class="scheme-block__header-wrap">REST service</b>
+        </div>
+        <div class="scheme-block__body">
+            <h1 id="rest-service">rest service</h1>
+
+        </div>
+    </div>
+
+
+    <div class="scheme-block scheme-block_size_1 scheme-block_type_2 scheme-block_left_2" id="la8">
+        <div class="scheme-block__header">
+            <b class="scheme-block__header-wrap">Data sharing services</b>
+        </div>
+        <div class="scheme-block__body">
+            <h4 id="data-sharing-services">data sharing services</h4>
+<p><strong>motivation</strong>
+<strong>principle realization</strong>
+<strong>functions</strong>
+<strong>APIs</strong>
+<strong>security measures</strong>
+<strong>monitoring</strong>
+<strong>deployment</strong>
+<strong>possible SBBs</strong></p>
+
+        </div>
+    </div>
+
+
+    <div class="scheme-block scheme-block_size_1 scheme-block_type_2 scheme-block_left_2" id="la9">
+        <div class="scheme-block__header">
+            <b class="scheme-block__header-wrap">Data validation services</b>
+        </div>
+        <div class="scheme-block__body">
+            <h4 id="validation-service">validation service</h4>
+<p><strong>motivation</strong>
+<strong>principle realization</strong>
+<strong>functions</strong>
+<strong>APIs</strong>
+<strong>security measures</strong>
+<strong>monitoring</strong>
+<strong>deployment</strong>
+<strong>possible SBBs</strong></p>
+
+        </div>
+    </div>
+
+
+    <div class="scheme-block scheme-block_size_1-2 scheme-block_type_2 scheme-block_left_3" id="la10">
+        <div class="scheme-block__header">
+            <b class="scheme-block__header-wrap">Message internal routing &amp; processing engine</b>
+        </div>
+        <div class="scheme-block__body">
+            <h2 id="context-manager-message-internal-routing-processing-engine-mirpe-">context manager (message internal routing &amp; processing engine - MIRPE)</h2>
+<p><strong>responsibility</strong>
+Context manager is responsible for message process definition with and context-based routing while processing the messages. 
+<strong>motivation</strong>
+<strong>principle realization</strong>
+<strong>functions</strong>
+<strong>APIs</strong>
+Context manager has a simple service API with a single endpoint. All of the processing tasks are made by context manager based on context.
+<strong>security measures</strong>
+<strong>monitoring</strong>
+<strong>deployment</strong>
+<strong>possible SBBs</strong></p>
+
+        </div>
+    </div>
+
+    <div class="scheme-block scheme-block_size_1-2 scheme-block_type_2 scheme-block_left_3 bottom" id="la11">
+        <div class="scheme-block__header">
+            <b class="scheme-block__header-wrap">Message external routing engine (MERE)</b>
+        </div>
+        <div class="scheme-block__body">
+            <h4 id="dispatcher-message-external-routing-engine-mere-">dispatcher (message external routing engine - MERE)</h4>
+<p><strong>motivation</strong>
+<strong>principle realization</strong>
+<strong>functions</strong>
+<strong>APIs</strong>
+<strong>security measures</strong>
+<strong>monitoring</strong>
+<strong>deployment</strong>
+<strong>possible SBBs</strong></p>
+
+        </div>
+    </div>
+
+    <div class="scheme-block scheme-block_size_1 scheme-block_type_2 scheme-block_left_3 bottom" id="la12">
+        <div class="scheme-block__header">
+            <b class="scheme-block__header-wrap">Application heap</b>
+        </div>
+        <div class="scheme-block__body">
+            <h4 id="applications-heap">applications heap</h4>
+<p><strong>motivation</strong>
+<strong>principle realization</strong>
+<strong>functions</strong>
+<strong>APIs</strong>
+<strong>security measures</strong>
+<strong>monitoring</strong>
+<strong>deployment</strong>
+<strong>possible SBBs</strong></p>
+
+        </div>
+    </div>
+
+    <div class="scheme-block scheme-block_size_1 scheme-block_type_2 scheme-block_left_5 right" id="la13">
+        <div class="scheme-block__header">
+            <b class="scheme-block__header-wrap">Pipelines &amp; rules</b>
+        </div>
+        <div class="scheme-block__body">
+            <h1 id="pipelines-rules">pipelines &amp; rules</h1>
+
+        </div>
+    </div>
+
+    <div class="scheme-block scheme-block_size_1 scheme-block_type_2 scheme-block_left_5 right" id="la14">
+        <div class="scheme-block__header">
+            <b class="scheme-block__header-wrap">Context state</b>
+        </div>
+        <div class="scheme-block__body">
+            <h4 id="context-state">context state</h4>
+<p><strong>motivation</strong>
+<strong>principle realization</strong>
+<strong>functions</strong>
+<strong>APIs</strong>
+<strong>security measures</strong>
+<strong>monitoring</strong>
+<strong>deployment</strong>
+<strong>possible SBBs</strong></p>
+
+        </div>
+    </div>
+
+    <div class="scheme-block scheme-block_size_1 scheme-block_type_2 scheme-block_left_4" id="la15">
+        <div class="scheme-block__header">
+            <b class="scheme-block__header-wrap">Security provider</b>
+        </div>
+        <div class="scheme-block__body">
+            <h2 id="security-provider">security provider</h2>
+<p><strong>motivation</strong>
+<strong>principle realization</strong>
+<strong>functions</strong>
+<strong>APIs</strong>
+<strong>security measures</strong>
+<strong>monitoring</strong>
+<strong>deployment</strong>
+<strong>possible SBBs</strong></p>
+
+        </div>
+    </div>
+
+    <div class="scheme-block scheme-block_size_1 scheme-block_type_2 scheme-block_left_5 right bottom" id="la16">
+        <div class="scheme-block__header">
+            <b class="scheme-block__header-wrap">Transport subsystem</b>
+        </div>
+        <div class="scheme-block__body">
+            <h2 id="transport-subsystem">transport subsystem</h2>
+<p><strong>motivation</strong>
+<strong>principle realization</strong>
+<strong>functions</strong>
+<strong>APIs</strong>
+<strong>security measures</strong>
+<strong>monitoring</strong>
+<strong>deployment</strong>
+<strong>possible SBBs</strong></p>
+
+        </div>
+    </div>
+
+    <div class="scheme-block scheme-block_size_1 scheme-block_type_1 scheme-block_left_5 right bottom" id="la17">
+        <div class="scheme-block__header">
+            <b class="scheme-block__header-wrap">Applications</b>
+        </div>
+        <div class="scheme-block__body">
+            <h1 id="applications">applications</h1>
+
+        </div>
+    </div>
+
+    <div class="scheme-block scheme-block_size_1 scheme-block_type_3 scheme-block_left_7 right" id="la18">
+        <div class="scheme-block__header">
+            <b class="scheme-block__header-wrap">Processing domain</b>
+        </div>
+        <div class="scheme-block__body">
+            <h1 id="processing-domain">processing domain</h1>
+
+        </div>
+    </div>
+
+    <div class="scheme-block scheme-block_size_1 scheme-block_type_4 scheme-block_left_6 right bottom" id="la19">
+        <div class="scheme-block__header">
+            <b class="scheme-block__header-wrap">External Systems</b>
+        </div>
+        <div class="scheme-block__body">
+            <h1 id="external-systems">external systems</h1>
+
+        </div>
+    </div>
+
+</div>
+
+            <div id="popup" class="popup">
+    <div id="popup__header" class="popup__header"></div>
+    <div id="popup__body" class="popup__body"></div>
+</div>
+        </div>
+
+        <footer class="mainfooter block__block_wrapper block__block_line_top">&copy; EAMY. MEDICAL SOFTWARE.</footer>
+
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="assets/vendor/jquery/jquery-2.1.1.min.js"><\/script>')</script>
+
+        
+
+        <script>
+            $(function () {
+
+                $('.scheme-block').click(function () {
+                    var $el = $(this)
+                    var $scheme = $el.parent('.scheme')
+                    var $active = $scheme.find('.active')
+                    var $block = $scheme.find('.scheme__blocked')
+
+                    if ($el.hasClass('disabled')) return false;
+
+                    if ($active.length > 0) {
+                        $active.removeClass('active')
+                        $block.removeClass('active')
+                    }
+
+                    if ($active.length === 0) {
+                        $el.addClass('active')
+                        $block.addClass('active')
+                    }
+
+                })
+
+                $('.scheme__blocked').click(function() {
+                    var $el = $(this)
+                    var $scheme = $el.parent('.scheme')
+                    var $active = $scheme.find('.active')
+                    
+                    $active.removeClass('active')
+                    
+                })
+            })
+        </script>
+
+        <script>
+            $(function () {
+                $('.case-approach__item').click(function () {
+                    var $el = $(this)
+                    var $active = $el.parent('.case-approach').find('.active')
+                    
+                    if ($active.length > 0) {
+                        $active.removeClass('active')
+                    }
+
+                    if ($active.length === 0) {
+                        $el.addClass('active')
+                    }
+                })
+            })
+        </script>
+
+        <script>
+            $(function () {
+                $('#js-feedback-send').click(function (e) {
+                    
+                    var data = {}
+
+                    e.preventDefault()
+                    $el = $('#js-form-feedback')
+                    $info = $('#js-form-feedback-info')
+
+                    $name = $('#js-feedback-name')
+                    $email = $('#js-feedback-email')
+                    $phone = $('#js-feedback-phone')
+                    $message = $('#js-feedback-message')
+
+                    if ($name.val().length === 0){
+                        $info.html('<p>Please fill your name.</p>')
+                        return false
+                    }
+
+                    if ($email.val().length === 0) {
+                        $info.html('<p>Please fill your e-mail.</p>')
+                        return false
+                    }
+
+                    if ($email.val().indexOf('@') < 0) {
+                        $info.html('<p>Email must contain @.</p>')
+                        return false
+                    }
+
+                    if ($phone.val().length === 0) {
+                        $info.html('<p>Please fill your phone.</p>')
+                        return false
+                    }
+
+                    if ($message.val().length === 0) {
+                        $info.html('<p>Please fill your message.</p>')
+                        return false
+                    }
+
+                    $info.html('')
+
+                    data = {
+                        "key": "tnkDu38gpDxKgV9MXXsn2g",
+                        "message": {
+                            'html': '<p><b>phone:</b> ' + $phone.val().toString() + '</p><p><b>message:</b>%' + $message.val().toString() + '</p>',
+                            "subject": "EAMY.ORG FEEDBACK",
+                            "from_email": $email.val().toString(),
+                            "from_name": $name.val().toString(),
+                            "to": [
+                                {
+                                    "email": "a.zaychikov@eamy.org",
+                                    "name": "Andrey Zaychikov",
+                                    "type": "to"
+                                }
+                            ],
+                            "important": false,
+                            "track_opens": null,
+                            "track_clicks": null,
+                            "auto_text": null,
+                            "auto_html": null,
+                            "inline_css": null,
+                            "url_strip_qs": null,
+                            "preserve_recipients": null,
+                            "view_content_link": null,
+                            "tracking_domain": null,
+                            "signing_domain": null,
+                            "return_path_domain": null,
+                            "merge": true,
+                            "merge_language": "mailchimp",
+                            "tags": [
+                                "eamy-feedback"
+                            ]
+                        },
+                        "async": false
+                    }
+
+                    $.ajax({
+                      'type': 'POST',
+                      'url': 'https://mandrillapp.com/api/1.0/messages/send.json',
+                      'data': data
+                     }).done(function(response) {
+
+                        $el.fadeOut(100)
+                        $info.fadeOut(100)
+
+                        $('.form-feedback').append('<h4 style="padding-left: 146px; color: #0a0;">Email has been sent successfully.</h5>')
+
+                     })
+
+
+                })
+            })
+        </script>
+
+        <script>
+          (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+          })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+          ga('create', 'UA-55830242-1', 'auto');
+          ga('send', 'pageview');
+        </script>
+
+    </body>
+</html>
