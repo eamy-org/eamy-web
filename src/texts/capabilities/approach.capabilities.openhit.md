@@ -1,0 +1,1 @@
+## approach for crafting business capabilities

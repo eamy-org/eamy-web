@@ -1,0 +1,1 @@
+You could skip this point if you won’t change the manifesto for your particular case. If you are going to change that you have to be aware that goals are tightly coupled with principles in the manifesto conception.

@@ -1,0 +1,2 @@
+## business case
+Business case is an approach and cases repository for high level assessment of openHIT value and use cases for a particular organization. For now it is not really connected with the financial assessments (it is more about maturity and capabilities) but we consider this as an option in the nearest future.

@@ -1,0 +1,19 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+
+    <Andrey Zaychikov> -- <role> -- <contact>
+    <Vadim Gusev> -- <role> -- <contact>
+    <Alexandr Chernikov> -- <web design> -- <contact>
+    <Dmitry Poddubny> -- <html markup> -- <https://twitter.com/KnyazD>
+
+# THANKS
+
+    <name>
+
+# TECHNOLOGY COLOPHON
+
+    HTML5, CSS3, LESS, BEM
+    html5boilerplate, normalize.css
+    grunt

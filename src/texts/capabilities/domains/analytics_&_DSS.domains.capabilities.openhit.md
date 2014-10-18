@@ -1,0 +1,4 @@
+- [medical desicions](/application.html)
+- [financial analysis](/application.html)
+- [pro-active-monitoring](/application.html)
+- [statical analysis](/application.html)

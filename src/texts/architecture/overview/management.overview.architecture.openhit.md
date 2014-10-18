@@ -1,0 +1,6 @@
+# management
+
+## configuration
+- etcd
+- consul
+

@@ -1,0 +1,1 @@
+Goals diagram is a part of manifesto. It tries to describe how IT systems in healthcare should look from the end-user side. It has no additional explanation of goals. They should be obvious enough.

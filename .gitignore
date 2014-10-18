@@ -1,3 +1,4 @@
+/node_modules
+/dest
 /venv
-/dist
 .DS_Store

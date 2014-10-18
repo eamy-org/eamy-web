@@ -1,0 +1,1 @@
+Stakeholder knows something about HIT solutions but doesn’t see any value from it for the day-to-day work or business model.

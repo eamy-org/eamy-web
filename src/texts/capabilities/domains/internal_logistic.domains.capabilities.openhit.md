@@ -1,0 +1,6 @@
+- [drugs](/application.html)
+- [medical supplies](/application.html)
+- [care](/application.html)
+- [facilities](/application.html)
+- [support supplies](/application.html)
+- [maintain](/application.html)

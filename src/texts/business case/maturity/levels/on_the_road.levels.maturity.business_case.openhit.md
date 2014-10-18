@@ -1,0 +1,1 @@
+Stakeholder starts to recognize strengths and weaknesses of HIT adoption in general as well as technologies and solutions needed to fill the major gaps in IT. Stakeholder understands the problem of business and IT alignment but still try to solve it with particular technologies or solutions.

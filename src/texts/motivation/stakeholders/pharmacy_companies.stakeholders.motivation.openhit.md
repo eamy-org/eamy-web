@@ -1,0 +1,1 @@
+Pharmacy is the main mean for treatment. Pharmaceutical companies have different models but mostly are interested in advertising and selling their products. As well they are one of the main forces for scientific researches in the healthcare industry. Pharmaceutical companies are one of the largest consumers of information.

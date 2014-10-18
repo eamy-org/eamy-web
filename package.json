@@ -1,0 +1,25 @@
+{
+  "name": "OpenHIT",
+  "version": "0.1.0",
+  "authors": [
+    "Dmitry Poddubny <css.experts@gmail.com>"
+  ],
+  "description": "OpenHIT web site",
+  "homepage": "http://eamy.org",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:misterious-mister-x/openhit.git"
+  },
+  "devDependencies": {
+    "assemble": "^0.4.0",
+    "grunt": "^0.4.0",
+    "grunt-contrib-clean": "^0.6.0",
+    "grunt-contrib-connect": "^0.8.0",
+    "grunt-contrib-copy": "^0.6.0",
+    "grunt-contrib-csslint": "^0.3.0",
+    "grunt-contrib-jshint": "^0.10.0",
+    "grunt-contrib-less": "^0.11.0",
+    "grunt-contrib-watch": "^0.6.0",
+    "grunt-newer": "^0.7.0"
+  }
+}

@@ -1,0 +1,1 @@
+Prevention of the deceases is one of the major issues in healthcare and one of the main drivers. It includes many options in such a areas as education, prophylactics, vaccination and so on.

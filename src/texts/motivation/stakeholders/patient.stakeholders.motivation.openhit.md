@@ -1,0 +1,2 @@
+Patient is one of the states of person. At this state interest of person as a stakeholder increases dramatically while he or her becomes an object of the healthcare. Patient is concerned about the velocity and quality of care as well as expenses connected with these actions. Patient is interested in control of actions and medicine as well as psychological support.
+There could be different types and statuses of patients. Each of those needs personal approach.

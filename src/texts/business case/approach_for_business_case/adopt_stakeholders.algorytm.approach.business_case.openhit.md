@@ -1,0 +1,1 @@
+Select main stakeholders and adopt the detailed stakeholders model. One can select stakeholders from stakeholders type catalogue or personalize those using individual stakeholders or stakeholders groups. Later you could attach the maturity profile to the stakeholders group in order to have more detailed view on what is happening on the lower levels of the model.

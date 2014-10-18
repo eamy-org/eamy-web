@@ -1,0 +1,1 @@
+Assessment of a business case in financial and recourses terms needs an additional review. White paper will be provided in openHIT version 0.4.

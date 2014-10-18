@@ -1,0 +1,1 @@
+## Algorithm of system’s work

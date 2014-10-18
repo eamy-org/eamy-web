@@ -1,0 +1,7 @@
+- [plan](/application.html)
+- [patient care](/application.html)
+- [inpatient state](/application.html)
+- [outpatient state](/application.html)
+- [resources](/application.html)
+- [financial](/application.html)
+- [quality of service](/application.html)

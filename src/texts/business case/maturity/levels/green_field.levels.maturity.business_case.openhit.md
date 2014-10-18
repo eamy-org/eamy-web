@@ -1,0 +1,1 @@
+Stakeholder recognizes some uncertain benefits of the HIT adoption and starts to seek for a particular technology or solution to fulfill these blurred needs.

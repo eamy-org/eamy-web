@@ -1,0 +1,4 @@
+- [patient accounting &amp; billing](/application.html)
+- [supplies accounting &amp; billing](/application.html)
+- [services accounting &amp; billing](/application.html)
+- [complex accounting processes](/application.html)

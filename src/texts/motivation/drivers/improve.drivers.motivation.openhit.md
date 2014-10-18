@@ -1,0 +1,1 @@
+Improvement is a new stream in healthcare which unites different measures and means helping people to support high level of health and life quality and to avoid unwilled consequences of people’s actions, environmental influence, stressful situations and so on.

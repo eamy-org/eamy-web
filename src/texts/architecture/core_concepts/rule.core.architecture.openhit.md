@@ -1,0 +1,4 @@
+### rule
+**definition**
+**motivation**
+**usage**

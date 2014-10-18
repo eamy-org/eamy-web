@@ -1,0 +1,6 @@
+- [patient](/application.html)
+- [CRM &amp; Loyalty](/application.html)
+- [information sharing](/application.html)
+- [regulatory](/application.html)
+- [financial](/application.html)
+- [reporting](/application.html)

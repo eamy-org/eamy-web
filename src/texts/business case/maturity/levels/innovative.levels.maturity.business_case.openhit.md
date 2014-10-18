@@ -1,0 +1,1 @@
+Stakeholder recognizes HIT as one of main drivers and means for establishing new business capabilities. HIT becomes a foundation for execution of the business initiatives. It is used for provide the high quality service and continuously improve business model and its outcomes.

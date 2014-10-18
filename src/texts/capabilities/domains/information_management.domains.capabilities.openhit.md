@@ -1,0 +1,8 @@
+- [personal info](/application.html)
+- [EMR](/application.html)
+- [medical images](/application.html)
+- [laboratory](/application.html)
+- [external information exchange](/application.html)
+- [financial information](/application.html)
+- [results](/application.html)
+- [master data](/application.html)

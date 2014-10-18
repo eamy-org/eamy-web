@@ -1,0 +1,1 @@
+You can adopt the principles in the manifesto concept. Principles are tightly connected with goals and with each over. Thus if you would like to change something more than implications parts of the principles you should carefully revise the interconnections between principles and effect of their changes on the reference architecture and overall approach.

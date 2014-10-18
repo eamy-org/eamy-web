@@ -1,0 +1,1 @@
+# openHIT reference architecture analysis from the CAP theorem point of view
