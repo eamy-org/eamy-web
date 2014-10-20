@@ -152,7 +152,7 @@ header: OpenHIT Architecture
         </div>
     </div>
 
-    <div class="scheme-block scheme-block_size_1 scheme-block_type_2 scheme-block_left_4" id="la15">
+    <div class="scheme-block scheme-block_size_1 scheme-block_type_2 scheme-block_left_4 right" id="la15">
         <div class="scheme-block__header">
             <b class="scheme-block__header-wrap">Security provider</b>
         </div>
