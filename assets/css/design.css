@@ -1866,6 +1866,9 @@ ul {
   top: 358px;
   z-index: 190;
 }
+.logical-architecture #la15.active {
+  z-index: 300;
+}
 .logical-architecture #la16 {
   top: 464px;
 }
