@@ -20,12 +20,12 @@ header: Contacts
         </div>
 
         <div class="form-group">
-            <label for="js-feedback-phone" class="form-label">Your phone nomber:</label>
+            <label for="js-feedback-phone" class="form-label">Your phone number:</label>
             <input type="text" class="form-control" id="js-feedback-phone" />
         </div>
 
         <div class="form-group">
-            <label for="js-feedback-message" class="form-label">Your messaage:</label>
+            <label for="js-feedback-message" class="form-label">Your message:</label>
             <textarea row="10" class="form-control" id="js-feedback-message"></textarea>
         </div>
 
