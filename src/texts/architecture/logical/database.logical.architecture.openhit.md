@@ -1,9 +1,1 @@
-####  DWH databases
-**motivation**
-**principle realization**
-**functions**
-**APIs**
-**security measures**
-**monitoring**
-**deployment**
-**possible SBBs**
+Databases are not obligatory but could be used by REST services as a part of message processing and storing.

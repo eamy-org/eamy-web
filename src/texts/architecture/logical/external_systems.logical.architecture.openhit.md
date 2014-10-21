@@ -1,1 +1,1 @@
-# external systems
+External systems are the ones outside of the domain borders and not included into the other domains. Such systems can still be a part of the overall message processing pipeline.

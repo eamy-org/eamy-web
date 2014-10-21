@@ -1,0 +1,1 @@
+Business case repository is a 3d matrix that helps organizations to find the most appropriate case for openHIT adoption and implementation. It will allow organizations to compare business cases and navigate efficiently between them.

@@ -1,9 +1,3 @@
-####  applications heap
-**motivation**
-**principle realization**
-**functions**
-**APIs**
-**security measures**
-**monitoring**
-**deployment**
-**possible SBBs**
+Application heap is a cache database for both internal and external applications. It helps to store and retrieve temporary data for applications, establishes communication between a service layer and applications. 
+
+For example, application has some temporary data, the service does some work and the last needs to send results to an application. In this case service writes data to the Application Heap and the application recieves access to this data immediately.

@@ -1,1 +1,1 @@
-This diagram is describing logical architecture of the system. Each component has its own short description.
+This diagram describes a logical architecture of the system. Each component has its own short description.

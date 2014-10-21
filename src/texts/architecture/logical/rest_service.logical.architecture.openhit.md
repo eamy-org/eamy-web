@@ -1,1 +1,1 @@
-# rest service
+REST service is a component that implements a particular piece of work. E.g. putting a prescription into the internal database, etc.

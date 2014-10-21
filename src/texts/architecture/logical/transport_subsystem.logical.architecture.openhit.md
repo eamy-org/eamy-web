@@ -1,9 +1,1 @@
-##  transport subsystem
-**motivation**
-**principle realization**
-**functions**
-**APIs**
-**security measures**
-**monitoring**
-**deployment**
-**possible SBBs**
+Transport subsystem provides the tools to fulfill the specific requirements for interactions between domains and external systems / applications.

@@ -1,1 +1,1 @@
-Capabilities domains is a classification of the capabilities that are or should be available as a part of openHIT capabilities. This diagram is not interactive. It will be updated in the openHIT version 0.4.
+Capabilities domains is a classification of the capabilities available as a part of EAMY applications. This diagram is not interactive. It will be updated in the openHIT version 0.4.

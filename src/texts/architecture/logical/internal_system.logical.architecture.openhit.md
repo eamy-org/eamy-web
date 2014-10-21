@@ -1,9 +1,1 @@
-##  internal applications
-**motivation**
-**principle realization**
-**functions**
-**APIs**
-**security measures**
-**monitoring**
-**deployment**
-**possible SBBs**
+Internal systems are legacy systems which are used together with  message processing pipelines. Normally, such systems would be isolated from the domain but inside it’s network and security perimeter and connected to the domain.

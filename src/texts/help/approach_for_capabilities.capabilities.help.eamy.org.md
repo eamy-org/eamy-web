@@ -1,0 +1,1 @@
+The diagram shows DIY capability with the use of openHIT reference architecture and openHIT logical architecture. It describes the role of each piece of openHIT core concepts in the process of capability implementation and further operation.

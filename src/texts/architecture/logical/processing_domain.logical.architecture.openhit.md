@@ -1,1 +1,1 @@
-# processing domain
+Processing domain is an isolated entity consisting of core services and a service layer and providing a solid engine for message processing via pipelines. One of the main features of the domain is to hold a solid and mostly independent instance of the message processing context.

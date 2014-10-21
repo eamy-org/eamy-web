@@ -1,0 +1,1 @@
+The diagram explains core concepts of the openHIT logical architecture. Based on a very simple example it describes how system operates and what the role of the each particular component of the logical architecture is.

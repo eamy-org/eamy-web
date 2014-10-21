@@ -1,1 +1,1 @@
-Describes main types of stakeholders. In the nearest future will allow to drill-down to more specific stakeholders definitions.
+Describes main types of stakeholders. In the nearest future it will allow to drill down to more specific stakeholders’ definitions.

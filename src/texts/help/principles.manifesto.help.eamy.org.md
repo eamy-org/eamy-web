@@ -1,0 +1,1 @@
+This is a set of technical principles describing how the HIT systems fulfilling the Manifesto Goals can be built. It is the very essence of the openHIT reference architecture and a powerful tool for checking the compliance of logical and technical architecture with the motivation part of the openHIT and the end-user expectations.

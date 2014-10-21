@@ -1,1 +1,1 @@
-Defines main drivers and their description. In ned version will allow to drill-down the drivers and check their connections with particular type of stakeholders. 
+Defines main drivers and their description. In the next version it will allow to drill down the drivers and check their connections with a particular type of stakeholders. 

@@ -1,9 +1,1 @@
-####  validation service
-**motivation**
-**principle realization**
-**functions**
-**APIs**
-**security measures**
-**monitoring**
-**deployment**
-**possible SBBs**
+Validation services is a set of services used for any kind of technical validation for the sake of the other services inside the domain.

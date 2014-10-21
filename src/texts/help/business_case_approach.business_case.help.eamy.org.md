@@ -1,0 +1,1 @@
+An approach for business case creation is an algorithm that describes step-by-step adoption of the openHIT reference architecture to fullfil the needs of the particular organization, its specifics and a business model.

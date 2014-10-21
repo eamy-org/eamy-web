@@ -1,1 +1,1 @@
-Research drives vast variety of activities. But the final purpose of all of those is to improve people health and quality of life due to products and services improvements.
+Research is about vast variety of activities. But the final purpose of all of these is to improve people health and quality of life improving gradually products and services.
