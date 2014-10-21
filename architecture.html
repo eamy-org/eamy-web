@@ -57,7 +57,7 @@
     <div class="mainhelp__window">
         <div class="mainhelp__window-title">HELP</div>
         <div class="mainhelp__window-wrap">
-            <p>This diagram is describing logical architecture of the system. Each component has its own short description.</p>
+            <p>This diagram describes a logical architecture of the system. Each component has its own short description.</p>
 
         </div>
     </div>
@@ -78,15 +78,7 @@
             <b class="scheme-block__header-wrap">Database</b>
         </div>
         <div class="scheme-block__body">
-            <h4 id="dwh-databases">DWH databases</h4>
-<p><strong>motivation</strong>
-<strong>principle realization</strong>
-<strong>functions</strong>
-<strong>APIs</strong>
-<strong>security measures</strong>
-<strong>monitoring</strong>
-<strong>deployment</strong>
-<strong>possible SBBs</strong></p>
+            <p>Databases are not obligatory but could be used by REST services as a part of message processing and storing.</p>
 
         </div>
     </div>
@@ -96,15 +88,7 @@
             <b class="scheme-block__header-wrap">Internal system</b>
         </div>
         <div class="scheme-block__body">
-            <h2 id="internal-applications">internal applications</h2>
-<p><strong>motivation</strong>
-<strong>principle realization</strong>
-<strong>functions</strong>
-<strong>APIs</strong>
-<strong>security measures</strong>
-<strong>monitoring</strong>
-<strong>deployment</strong>
-<strong>possible SBBs</strong></p>
+            <p>Internal systems are legacy systems which are used together with  message processing pipelines. Normally, such systems would be isolated from the domain but inside it’s network and security perimeter and connected to the domain.</p>
 
         </div>
     </div>
@@ -114,7 +98,7 @@
             <b class="scheme-block__header-wrap"><b>SOAP</b><br/> proxy service</b>
         </div>
         <div class="scheme-block__body">
-            <h1 id="soap-proxy-service">SOAP proxy service</h1>
+            <p>SOAP proxy service can be used to connect internal legacy systems with the openHIT domain. Its main purpose is to transform messages from internal systems (from an XML-based format) to a flexible JSON used in the openHIT domains for processing of the messages in pipelines.</p>
 
         </div>
     </div>
@@ -124,15 +108,7 @@
             <b class="scheme-block__header-wrap">Internal system</b>
         </div>
         <div class="scheme-block__body">
-            <h2 id="internal-applications">internal applications</h2>
-<p><strong>motivation</strong>
-<strong>principle realization</strong>
-<strong>functions</strong>
-<strong>APIs</strong>
-<strong>security measures</strong>
-<strong>monitoring</strong>
-<strong>deployment</strong>
-<strong>possible SBBs</strong></p>
+            <p>Internal systems are legacy systems which are used together with  message processing pipelines. Normally, such systems would be isolated from the domain but inside it’s network and security perimeter and connected to the domain.</p>
 
         </div>
     </div>
@@ -142,7 +118,7 @@
             <b class="scheme-block__header-wrap">REST service</b>
         </div>
         <div class="scheme-block__body">
-            <h1 id="rest-service">rest service</h1>
+            <p>REST service is a component that implements a particular piece of work. E.g. putting a prescription into the internal database, etc.</p>
 
         </div>
     </div>
@@ -152,7 +128,7 @@
             <b class="scheme-block__header-wrap">REST service</b>
         </div>
         <div class="scheme-block__body">
-            <h1 id="rest-service">rest service</h1>
+            <p>REST service is a component that implements a particular piece of work. E.g. putting a prescription into the internal database, etc.</p>
 
         </div>
     </div>
@@ -162,7 +138,7 @@
             <b class="scheme-block__header-wrap">REST service</b>
         </div>
         <div class="scheme-block__body">
-            <h1 id="rest-service">rest service</h1>
+            <p>REST service is a component that implements a particular piece of work. E.g. putting a prescription into the internal database, etc.</p>
 
         </div>
     </div>
@@ -192,15 +168,7 @@
             <b class="scheme-block__header-wrap">Data validation services</b>
         </div>
         <div class="scheme-block__body">
-            <h4 id="validation-service">validation service</h4>
-<p><strong>motivation</strong>
-<strong>principle realization</strong>
-<strong>functions</strong>
-<strong>APIs</strong>
-<strong>security measures</strong>
-<strong>monitoring</strong>
-<strong>deployment</strong>
-<strong>possible SBBs</strong></p>
+            <p>Validation services is a set of services used for any kind of technical validation for the sake of the other services inside the domain.</p>
 
         </div>
     </div>
@@ -250,15 +218,8 @@ Context manager has a simple service API with a single endpoint. All of the proc
             <b class="scheme-block__header-wrap">Application heap</b>
         </div>
         <div class="scheme-block__body">
-            <h4 id="applications-heap">applications heap</h4>
-<p><strong>motivation</strong>
-<strong>principle realization</strong>
-<strong>functions</strong>
-<strong>APIs</strong>
-<strong>security measures</strong>
-<strong>monitoring</strong>
-<strong>deployment</strong>
-<strong>possible SBBs</strong></p>
+            <p>Application heap is a cache database for both internal and external applications. It helps to store and retrieve temporary data for applications, establishes communication between a service layer and applications. </p>
+<p>For example, application has some temporary data, the service does some work and the last needs to send results to an application. In this case service writes data to the Application Heap and the application recieves access to this data immediately.</p>
 
         </div>
     </div>
@@ -268,7 +229,7 @@ Context manager has a simple service API with a single endpoint. All of the proc
             <b class="scheme-block__header-wrap">Pipelines &amp; rules</b>
         </div>
         <div class="scheme-block__body">
-            <h1 id="pipelines-rules">pipelines &amp; rules</h1>
+            <p>Rules for the pipelines adoption include two main components - templates for processes and rules for pipelines adoption. The first one describes the template for process and is managed with the use of process type ID (TID). The second ones defines the way to change the sequence of nodes,to add additional nodes to the pipeline based on the contains of the message. On the whole, rules and pipelines can be described as a configurational database that with own API and operated on the fly.</p>
 
         </div>
     </div>
@@ -314,15 +275,7 @@ Context manager has a simple service API with a single endpoint. All of the proc
             <b class="scheme-block__header-wrap">Transport subsystem</b>
         </div>
         <div class="scheme-block__body">
-            <h2 id="transport-subsystem">transport subsystem</h2>
-<p><strong>motivation</strong>
-<strong>principle realization</strong>
-<strong>functions</strong>
-<strong>APIs</strong>
-<strong>security measures</strong>
-<strong>monitoring</strong>
-<strong>deployment</strong>
-<strong>possible SBBs</strong></p>
+            <p>Transport subsystem provides the tools to fulfill the specific requirements for interactions between domains and external systems / applications.</p>
 
         </div>
     </div>
@@ -332,8 +285,7 @@ Context manager has a simple service API with a single endpoint. All of the proc
             <b class="scheme-block__header-wrap">Applications</b>
         </div>
         <div class="scheme-block__body">
-            <h1 id="applications">applications</h1>
-
+            
         </div>
     </div>
 
@@ -342,7 +294,7 @@ Context manager has a simple service API with a single endpoint. All of the proc
             <b class="scheme-block__header-wrap">Processing domain</b>
         </div>
         <div class="scheme-block__body">
-            <h1 id="processing-domain">processing domain</h1>
+            <p>Processing domain is an isolated entity consisting of core services and a service layer and providing a solid engine for message processing via pipelines. One of the main features of the domain is to hold a solid and mostly independent instance of the message processing context.</p>
 
         </div>
     </div>
@@ -352,7 +304,7 @@ Context manager has a simple service API with a single endpoint. All of the proc
             <b class="scheme-block__header-wrap">External Systems</b>
         </div>
         <div class="scheme-block__body">
-            <h1 id="external-systems">external systems</h1>
+            <p>External systems are the ones outside of the domain borders and not included into the other domains. Such systems can still be a part of the overall message processing pipeline.</p>
 
         </div>
     </div>
