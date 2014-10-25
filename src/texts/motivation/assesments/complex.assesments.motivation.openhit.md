@@ -1,6 +1,5 @@
-## complex
 The processes in healthcare organizations are a total nightmare. 
-- lots of variousconditions
+- lots of various conditions
 - different processes for different cases
 - different processes for different people
 - a large number of parameters

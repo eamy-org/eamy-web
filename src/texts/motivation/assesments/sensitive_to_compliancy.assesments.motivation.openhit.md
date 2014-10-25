@@ -1,2 +1,1 @@
-## sensitive to compliance
 Healthcare is one of the most regulated areas of human activities. And, obviously, that is so as the price paid by people for mistakes is high. On the other hand, complexity of processes and procedures as well as formal approach to the patients is one of the biggest issues in the healthcare industry. In some cases these processes are just too complex and too unclear to make it possible to get rid of mistakes. Besides, mentioned-above processes united with the «modern» HIT could increase complexity  many times over and lead to fatal mistakes.

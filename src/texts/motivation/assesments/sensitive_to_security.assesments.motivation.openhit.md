@@ -1,2 +1,1 @@
-## sensitive to security
 Healthcare is one of the most complex and sensitive areas in terms of security. Healthcare data can be insulting, hurting, humiliating and potentially dangerous, especially combined with personal data. Thus, lots of  regulators and the government  call a lot of attention to this certain part of regulatory. The security issues could potentially lead to the bankruptcy, major problems with reputation, affect hard clients and partners’ relations.

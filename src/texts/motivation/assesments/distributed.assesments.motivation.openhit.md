@@ -1,2 +1,1 @@
-## distributed
 Nowadays a lot of IT systems in healthcare are distributed globally or regionally. Such systems are interconnected with a large number of external systems, applications and etc. And this number will only grow. Total automatization of healthcare, internet of things and other technological, industrial and political trends will influence their distribution heavily.

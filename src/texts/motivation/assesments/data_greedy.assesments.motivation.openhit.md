@@ -1,4 +1,3 @@
-## data greedy
 Unlike any other industry, healthcare is able to take as much data as it is possible due to two main reasons:
 - complex nature of human beings, pets and livestock
 - great efforts to avoid mistakes and increase the improve accuracy of medical diagnostics and treatment 
